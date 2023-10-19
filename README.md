@@ -9,15 +9,19 @@
 siRNA Treatment Analysis Tool
 ```
 
-### RNA Progression Visualization Project
+### siRNA Progression Visualization Project
 
 #### Description
 
-This project aims to visualize RNA progression metrics over time using various data visualization techniques in Python. The dataset used includes intensity data, progress data, and more, collected at specific time points.
+This project aims to visualize siRNA progression into nucleus boundaries. \
+siRNA and nucleus are dyed with blue and red dyes respectively. \
+Metrics are collated using data captured over various time intervals. \
+Data is then plotted using various data visualization techniques in Python. 
 
 #### Input Data Format
 
-The expected dataset should be in a ZIP format containing folders with names corresponding to the time points (e.g., 0, 1, 3, 6). Each folder should contain a montage.tif file, which comprises different layers such as:
+The expected dataset should be in a ZIP format containing folders with names corresponding to the time points (e.g., 0, 1, 3, 6). \
+Each folder should contain a montage.tif file, which comprises different layers such as:
 - Red channel
 - Blue channel
 - RGB merged layer
